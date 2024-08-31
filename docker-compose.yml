@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  openai-api-proxy:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./authorized_tokens.json:/app/authorized_tokens.json
