@@ -16,7 +16,7 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/yourusername/openai-api-proxy.git
+    git clone https://github.com/AlexanderZhk/openai-api-proxy.git
     cd openai-api-proxy
     ```
 
